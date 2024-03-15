@@ -1,0 +1,1 @@
+docker build --rm -f ./Dockerfile --tag=testexecypress:0.0.1 .

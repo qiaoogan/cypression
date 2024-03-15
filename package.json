@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "cypress run",
+    "test": "npx cypress run --browser chrome",
     "allure-generate": "allure generate ./test-results/allure-results -c -o ./test-results/allure-reports"
   },
   "author": "",
