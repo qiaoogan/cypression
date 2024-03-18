@@ -25,6 +25,7 @@ describe("Account setting test", () => {
         cy.visit(url);
 
         cy.get(accoutSettingPage.elements.firstNameField).should("have.value",testFirstName )
+        cy.screenshot('save_account_modification');
 
 
         // cy.get(accoutSettingPage.elements.firstNameField).then(($element) => {
@@ -42,6 +43,7 @@ describe("Account setting test", () => {
         cy.wait(1000)
 
         cy.get(accoutSettingPage.elements.firstNameField).should("have.value",testFirstName )
+        cy.screenshot('cancel_change_account');
 
     })
 })

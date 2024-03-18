@@ -20,5 +20,6 @@ module.exports = defineConfig({
   "include": [
     "/node_modules/cypress",
     "cypress/**/*"
-  ]
+  ],
+  "screenshotsFolder": "test-results/test-screenshots"
 });

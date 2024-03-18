@@ -11,6 +11,7 @@ describe('tests for dashbord', () => {
     cy.get(dashboardPage.elements.congratsLabel).then(($element) =>{
       const text = $element.text();
       expect(text).to.contains("Congratulations")
+      cy.screenshot('dashboard_home_page');
     })
 
   }),
