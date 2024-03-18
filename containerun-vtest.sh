@@ -9,4 +9,4 @@ docker container run --rm \
   --mount type=bind,source="$(pwd)",target=/home/cypression \
   -e VTEST_BUILD_VERSION="$BUILD_NUMBER" \
   --entrypoint node /home/cypression/vtest.js \
-  $image \
+  $image
