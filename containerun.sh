@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-image="testexecypress:0.0.1"
+image="qiaoogan/testexecypress:0.0.1"
 
 docker container run --rm \
   --add-host hw.dogger.instance:123.60.93.173 \
